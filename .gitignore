@@ -1,0 +1,85 @@
+# Python Bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+.wheelhouse/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# virtualenv
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Pytest
+.cache/
+
+# mypy
+.mypy_cache/
+
+# VS Code settings
+.vscode/
+
+# JetBrains IDE (PyCharm, etc.)
+.idea/
+
+# Mac OS X
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# PyCharm's .idea folder (if using PyCharm IDE)
+.idea/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# dotenv environment variables file
+.env
+.env.*
+
+# Python-specific virtual environments (example)
+env/
+venv/
+
+# pytest
+.cache/
+
+# Coverage directory used by tools like coverage.py
+.coverage
+.coverage.*
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# VS Code settings
+.vscode/
+
+# Sphinx documentation
+docs/_build/
+
+# PyInstaller
+*.spec
