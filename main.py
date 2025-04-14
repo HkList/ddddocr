@@ -15,7 +15,7 @@ def get_baidu_vcode():
         # 获取百度验证码信息
         try:
             api_resp = requests.get(
-                "https://pan.baidu.com/api/getvcode?prod=pan", timeout=10
+                "https://pan.baidu.com/api/getvcode?prod=pan", timeout=30
             )
             data = api_resp.json()
         except:
@@ -29,7 +29,7 @@ def get_baidu_vcode():
 
         # 下载验证码图片
         try:
-            img_resp = requests.get(vcode_img_url, timeout=10)
+            img_resp = requests.get(vcode_img_url, timeout=30)
         except:
             return {"code": 500, "message": "验证码图片下载失败", "data": None}
 
